@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Hero } from '../hero';
 
 @Component({
   selector: 'app-heroes',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class HeroesComponent {
   hero = 'Kingpin';
+
+  hero2: Hero = {
+    id: 1,
+    name: 'Kingpin2'
+  };
+
 }
